@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Mate - Customize Settings</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+    <div id="page2" class="page">
+        <div class="container">
+            <h1>Customize Settings</h1>
+            <p>Choose the intervals for your reminders (in minutes)</p>
+            <div class="reminder-card">
+                <h2>Customize Reminder Timings</h2>
+                <input type="number" id="hydrateInterval" placeholder="Hydration Interval" />
+                <input type="number" id="postureInterval" placeholder="Posture Interval" />
+                <input type="number" id="eyeInterval" placeholder="Eye Care Interval" />
+            </div>
+            <a href="popup.html" class="back-link">Back</a>
+            <div class="button-container">
+                <button id="saveBtn">Save Settings</button>
+                <button id="resetToDefaultBtn">Reset to Default</button>
+            </div>
+        </div>
+    </div>
+    <script src="customize.js"></script>
+</body>
+</html>

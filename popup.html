@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health Mate</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div id="page1" class="page">
+    <div class="container">
+      <h1>Health Mate</h1>
+      <div class="reminder-card hydration">
+        <h2>Hydration Reminder</h2>
+        <p>Receive reminders to drink water</p>
+        <div class="timer-container">
+          <span id="hydrationTimer"></span>
+        </div>
+      </div>
+      <div class="reminder-card posture">
+        <h2>Posture Alert</h2>
+        <p>Receive reminders to check your posture</p>
+        <div class="timer-container">
+          <span id="postureTimer"></span>
+        </div>
+      </div>
+      <div class="reminder-card eye-care">
+        <h2>Eye Care Prompt</h2>
+        <p>Receive reminders for eye care</p>
+        <div class="timer-container">
+          <span id="eyeTimer"></span>
+        </div>
+      </div>
+      <a href="customize.html" class="custom-link">Customize Your Settings</a>
+      <button id="startAllBtn">Start All Reminders</button>
+      <button id="stopAllBtn">Stop All Reminders</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

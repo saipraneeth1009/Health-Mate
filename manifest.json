@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Health Mate",
+    "version": "1.0",
+    "description": "A browser extension for health reminders.",
+    "permissions": [
+      "alarms",
+      "notifications",
+      "storage"
+  ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "water.png",
+        "48": "water.png",
+        "128": "water.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "water.png",
+      "48": "water.png",
+      "128": "water.png"
+    }
+  }
+  
